@@ -1,0 +1,71 @@
+*{
+    font-family: 'Texturina', serif;
+}
+body{
+    background-color: #fff;
+    /* background-image: radial-gradient(circle at 98.76% 50%, #fbffff 0, #ecfffd 7.14%, #dafffa 14.29%, #c6fff7 21.43%, #aefff5 28.57%, #92fff3 35.71%, #70fcf2 42.86%, #3cf2f2 50%, #00e7f3 57.14%, #00ddf6 64.29%, #00d4fa 71.43%, #00cbff 78.57%, #00c2ff 85.71%, #00baff 92.86%, #00b3ff 100%); */
+}
+.contenido{ 
+    margin:-48% auto;
+    height: 100vh;
+    margin:-40% 0% 10% 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px rgb(0, 0,0,.5) ;
+    width: 80vw;
+}
+h1{
+    position: relative;
+    padding: 10vh 0 2% 38%;
+    font-size: 40px;
+}
+.tot{
+    display: flex;
+    margin:0% 0 0 -3.5vw;
+    width: 65vw;
+    background-image: radial-gradient(circle at 98.76% 50%,  #92fff3 35.71%, #70fcf2 42.86%, #3cf2f2 50%, #00e7f3 57.14%, #00ddf6 64.29%, #00d4fa 71.43%, #00cbff 78.57%, #00c2ff 85.71%, #00baff 92.86%, #00b3ff 100%);
+    padding: 5%;
+    height: 50vh;
+    box-shadow: 0 0 6px rgb(0, 0, 0) ;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.tot p{
+    clear: both;
+}
+form{
+    margin: 0 10%;
+}
+input{
+    padding: 1.5%;
+    border-radius: 11px;
+    border: rgb(204, 234, 248) solid 3px;
+    font-size: 15px;
+    background-color: rgb(204, 234, 248);
+    width: 20vw;
+}
+input:hover{
+    background-color:  rgba(45, 188, 224, 0.527);
+}
+.button{
+    padding: 1%;
+    margin: 5% 0 0 30%;
+    border: rgb(0, 140, 255) solid 2px;
+    width: 8vw;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color:  rgb(102, 204, 230);
+    color: white;
+
+}
+button:hover{
+    background-color:  rgb(0, 204, 255);
+}
+hr{
+    color: black;
+    background-color: black;
+}
+
+.lineaa{
+    width: 71vw;
+}

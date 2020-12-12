@@ -1,0 +1,63 @@
+* {
+    font-family: 'Texturina', serif;
+}
+.contenido{ 
+    margin:-48% auto;
+    height: 250vh;
+    margin:-40% 0% 10% 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px rgb(0, 0,0,.5) ;
+    width: 80vw;
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.tar{
+    /*https://cssgradient.io/*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54, 54, 173, 0.836) 0%, rgba(0, 213, 255, 0.856) 100%);
+    width: 38%;
+    padding: 3%;
+    height: 50vh;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 33px;
+    display: inline-block;
+    color: white;
+    z-index: 100;
+    align-items: center;
+    justify-content:space-evenly ;
+    flex-direction: column;
+}
+.tar img:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);/*Cambia de tamaño la imagen*/
+}
+.tar img{
+    border: rgb(255, 255, 255) solid 5px;
+}
+.section{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.hr{
+    width: 90%;
+}
+.lin{
+    display: inline-block;
+    border-bottom: 5px solid rgb(0, 17, 255);
+    width: 10%;
+    margin:0vw -5.4% 0 -5.3%;
+}
+.lon{
+    border-left: black solid 5px;
+    width: 100%;
+    z-index: 100;
+    margin:1% -5.4% 0 -5.3%;
+
+}
+.titul{
+    margin-top: -2%;
+}
+p{
+    text-align: justify;
+}
